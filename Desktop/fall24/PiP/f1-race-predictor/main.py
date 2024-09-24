@@ -37,6 +37,7 @@ def get_weather_data(lat, lon, date):
 
 def main():
     race_schedule = get_f1_race_schedule()
+    print(race_schedule)
 
     weather_data = []
 
